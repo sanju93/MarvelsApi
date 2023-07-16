@@ -1,0 +1,146 @@
+body{
+    background-color: darkslategray;
+}
+
+.nav{
+    width : 100%;
+    height: 90px;
+    background-color: darkslategray;
+    padding-top: 3px;
+   
+}
+.nav p{
+    font-size: xx-large;
+    font-weight: 600;
+    color : white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container{
+    width : 100%;
+    height: auto;
+   
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.container .search-bar {
+    width : 70%;
+    height : 70px;
+}
+
+
+.container .search-bar input{
+
+    width : 100%;
+    height : 40px;
+    border-radius: 20px;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border : 1px solid white;
+    padding: 10px;
+    
+}
+
+.container .search-bar input:focus{
+    outline-color: darkslategray;
+}
+
+
+button{
+ margin-left: 38%;
+ margin-top: 1%;
+ width: 30%;
+ height: 40px;
+ color : white;
+ background-color: brown;
+ border: 3px solid whitesmoke;
+ font-size: large;
+ font-weight: bold;
+ border-radius: 10px;
+ 
+ 
+}
+button:hover{
+    cursor: pointer;
+    background-color: darkred;
+}
+
+.container #characters{
+
+    width : 100%;
+    height : auto;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 3%;
+ 
+ 
+
+}
+
+.cards {
+  width : 33%;
+  height : 330px;
+  margin-bottom: 1%;
+  border : 1px solid black;
+  padding : 3%;
+  border-radius: 30px;
+  
+
+}
+  
+.cards img{
+    width : 100%;
+    height : 200px;
+    cursor: pointer;
+}
+
+.cards p{
+    color : whitesmoke;
+    font-size : x-large;
+    font-weight: 600;
+}
+
+.cards button{
+    width : 50%;
+    height : 40px;
+    color : white;
+    background-color: red;
+    border : 3px solid whitesmoke;
+    margin-left: 22%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.cards button:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.cards:hover{
+   
+  /* box-shadow: 10px 10px 4px 4px rgba(0, 0, 0, 0.8);*/
+   /*box-shadow: 10px 10px 10px black;*/
+   box-shadow: 3px 3px black,
+   -1rem 3px 3px black;
+}
+
+
+#avenger{
+    margin-top: 5%;
+    width : 65%;
+    height : 70%;
+}
+
+
+
+
+

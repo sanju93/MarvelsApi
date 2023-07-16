@@ -1,0 +1,122 @@
+body{
+    background-color: darkslategray;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 1%;
+    margin-top: 0%;
+    font-weight: 600;
+    color : white
+}
+#container{
+    height : auto;
+    width : 100%;
+   
+   
+}
+
+#container .child{
+    height : 450px;
+    width : 100%;
+   
+}
+
+.child img{
+    height : 50%;
+    width : 30%;
+    margin-left : 35%;
+    border : 4px double whitesmoke;
+}
+
+.child div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.child p{
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+}
+
+.child div span{
+    margin-left: 1%;
+}
+
+.child div button{
+    height : 40px;
+    width : 18%;
+    font-size: x-large;
+    font-weight: 600;
+    background-color: red;
+    color : white;
+    border : 3px solid white;
+    cursor: pointer;
+    margin-top : 1%;
+    margin-bottom: 1%;
+}
+
+.child div button:hover{
+    background-color: darkred;
+}
+
+.child div div{
+    display  : flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width : 100%;
+   
+}
+
+#more-info{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   width : 100%;
+}
+
+.child1{
+    width : 30%;
+    height : auto;
+    margin-bottom: 1%;
+    padding : 2%;
+    border : 3px solid black;
+}
+
+.child1 img{
+    width : 100%;
+    height : 500px;
+}
+
+.child1 p{
+    font-size: 30px;
+    font-weight: 600;
+    color : white;
+}
+
+.child1:hover{
+
+    box-shadow: 3px 3px black,
+    -1rem 3px 3px black;    
+
+}
+
+#homebtn{
+    width : 15%;
+    height : 30px;
+    color : white;
+    background-color: rgb(0, 0, 139);
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#homebtn:hover{
+    background-color: rgb(14, 25, 137);
+}
+
+
